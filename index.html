@@ -47,7 +47,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>myWiki — </title>
+<title>My TiddlyWiki — a non-linear personal web notebook</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~-->
 
 <!--~~ Raw markup ~~-->
@@ -141,6 +141,8 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/AutoSave</li>
+
 <li>$:/core</li>
 
 <li>$:/GitHub/Filename</li>
@@ -153,10 +155,6 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
-<li>$:/SiteSubtitle</li>
-
-<li>$:/SiteTitle</li>
-
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
@@ -167,13 +165,9 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
-<li>$:/temp/NewTagName</li>
-
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
-
-<li>Contents</li>
 
 </ul>
 </p>
@@ -189,6 +183,9 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20200619133653408" modified="20200619133653408" title="$:/config/AutoSave">
+<pre>no</pre>
+</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9562,37 +9559,31 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200619133008711" modified="20200619133013446" title="$:/GitHub/Filename">
+<div created="20200619133722269" modified="20200619133724732" title="$:/GitHub/Filename">
 <pre>index.html</pre>
 </div>
-<div created="20200619133005478" modified="20200619133005478" title="$:/GitHub/Path">
+<div created="20200619133720111" modified="20200619133720111" title="$:/GitHub/Path">
 <pre>/</pre>
 </div>
-<div created="20200619132957386" modified="20200619133002546" title="$:/GitHub/Repo">
+<div created="20200619133711082" modified="20200619133717240" title="$:/GitHub/Repo">
 <pre>sweaterbird/notes</pre>
 </div>
-<div created="20200619132933203" modified="20200619132936961" title="$:/GitHub/Username">
+<div created="20200619133657799" modified="20200619133701024" title="$:/GitHub/Username">
 <pre>sweaterbird</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20200619132903458" modified="20200619132903458" title="$:/SiteSubtitle">
-<pre></pre>
-</div>
-<div created="20200619132857570" modified="20200619132857953" title="$:/SiteTitle">
-<pre>myWiki</pre>
-</div>
-<div created="20200619132916722" modified="20200619132925610" title="$:/state/tab-1749438307">
+<div created="20200619133650738" modified="20200619133650738" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20200619132919365" modified="20200619133022041" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/General</pre>
+<div created="20200619133655186" modified="20200619133655186" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200619132914137" list="Contents GettingStarted" modified="20200619132914137" title="$:/StoryList">
+<div created="20200619133648800" list="$:/ControlPanel GettingStarted" modified="20200619133648800" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9640,11 +9631,11 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;3840&quot;
+            &quot;text&quot;: &quot;1440&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;2160&quot;
+            &quot;text&quot;: &quot;900&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -9652,9 +9643,6 @@ Error message and password prompt
         }
     }
 }</pre>
-</div>
-<div created="20200619133132349" modified="20200619133132349" title="$:/temp/NewTagName">
-<pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22">
 <pre>{
@@ -9764,9 +9752,6 @@ Error message and password prompt
         }
     }
 }</pre>
-</div>
-<div created="20200619133056442" modified="20200619133137838" tags="Contents" title="Contents">
-<pre></pre>
 </div>
 
 
