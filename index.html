@@ -10014,18 +10014,21 @@ Error message and password prompt
 &lt;&lt;toc-selective-expandable 'Neurology' sort[title]&gt;&gt;
 &lt;/div&gt;</pre>
 </div>
-<div created="20200622152952596" modified="20200622215147335" tags="[[Machine Learning]]" title="Reinforcement Learning">
+<div created="20200622152952596" modified="20200622215735102" tags="[[Machine Learning]]" title="Reinforcement Learning">
 <pre>!!Reward hypothesis
 All goals can be described by the maximization of expected cumulative reward (a reward is a scalar feedback signal).
 
+!! Sequential Decision Making
+* goal is to select actions to maximize the total future reward. 
+* Can't be greedy. Actions may have long term consequences. It may be better to sacrifice intermediate reward to gain more long term reward.
+!!! Agent and Environment
+* Observations (O,,t,,), Action (A,,t,,) and Reward (R,,t,,)
 
-Youtube Course:
-
+!!!Youtube Course
 * Deepmind course, University College of London, David Silver
 ** https://youtu.be/2pWv7GOvuf0 
 
-Textbooks: 
-
+!!!Textbooks 
 * Reinforcement Learning: An Introduction by Sutton and Barto
 ** http://incompleteideas.net/book/the-book-2nd.html
 * Algorithms for reinforcement learning
