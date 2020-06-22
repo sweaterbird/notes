@@ -10014,15 +10014,24 @@ Error message and password prompt
 &lt;&lt;toc-selective-expandable 'Neurology' sort[title]&gt;&gt;
 &lt;/div&gt;</pre>
 </div>
-<div created="20200622152952596" modified="20200622215735102" tags="[[Machine Learning]]" title="Reinforcement Learning">
+<div created="20200622152952596" modified="20200622220546033" tags="[[Machine Learning]]" title="Reinforcement Learning">
 <pre>!!Reward hypothesis
-All goals can be described by the maximization of expected cumulative reward (a reward is a scalar feedback signal).
+All goals can be described by the maximization of expected cumulative reward (a reward (R,,t,,) is a scalar feedback signal).
 
 !! Sequential Decision Making
 * goal is to select actions to maximize the total future reward. 
 * Can't be greedy. Actions may have long term consequences. It may be better to sacrifice intermediate reward to gain more long term reward.
 !!! Agent and Environment
-* Observations (O,,t,,), Action (A,,t,,) and Reward (R,,t,,)
+* Observations (O,,t,,), Action (A,,t,,) and Reward (R,,t,,) occur in a time sequence with each step denoted by t.
+!!! History and State
+* the history is the sequence of observations, actions, and rewards
+* what happens next depends on the history
+* agent selects the actions
+* environment determines the observations and rewards
+* State is a function of the history, S,,t,, = f(H,,t,,)
+** there is an environment state S,,t,,^^e^^
+** S,,t,,^^e^^ is not visible  to the agent
+*** even if visible, this may not be relevant to the agent
 
 !!!Youtube Course
 * Deepmind course, University College of London, David Silver
