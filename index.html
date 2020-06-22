@@ -10019,7 +10019,7 @@ Error message and password prompt
 &lt;&lt;toc-selective-expandable 'Neurology' sort[title]&gt;&gt;
 &lt;/div&gt;</pre>
 </div>
-<div created="20200622152952596" modified="20200622223127386" tags="[[Machine Learning]]" title="Reinforcement Learning">
+<div created="20200622152952596" modified="20200622223622494" tags="[[Machine Learning]]" title="Reinforcement Learning">
 <pre>!!Reward hypothesis
 All goals can be described by the maximization of expected cumulative reward (a reward (R,,t,,) is a scalar feedback signal).
 
@@ -10061,6 +10061,7 @@ All goals can be described by the maximization of expected cumulative reward (a 
 * Value - how good is each state or action
 ** a prediction of expected future reward
 ** v,,pi,,(s) = E,,pi,,[R,,t,, + gammaR,,t+1,, + gamma^^2^^R,,t+2,,+ ... | S,,t,, = s]
+*** here gamma is a discount feature on future rewards. ie. immediate rewards are biased to count more in this model than rewards far distant in the future.
 * Model - agents representation of the environment
 
 !!!Youtube Course
